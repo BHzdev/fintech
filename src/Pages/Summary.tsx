@@ -6,7 +6,7 @@ const Summary = () => {
   if (data === null) return null;
   return (
     <section>
-      <div>
+      <div className="summary flex mb">
         <div className="box">
           <h2>Vendas</h2>
           <span>
@@ -35,6 +35,7 @@ const Summary = () => {
           </span>
         </div>
       </div>
+      <div className="box">Gráficos</div>
     </section>
   );
 };
